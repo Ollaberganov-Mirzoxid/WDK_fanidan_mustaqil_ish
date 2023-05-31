@@ -12,7 +12,7 @@
     <div class="navbar-section">
       <div class="navbar-left">
         <div class="logo">
-          <a href="main.html">
+          <a href="main.php">
             <div class="logo-image">
               <img
                 src="../img/logo.png"
@@ -25,7 +25,7 @@
           </a>
         </div>
         <div class="sidebar-menu">
-          <a href="main.html"><p class="sidebar-item">Bosh sahifa</p></a>
+          <a href="main.php"><p class="sidebar-item">Bosh sahifa</p></a>
           <a href="second.html"><p class="sidebar-item">Ish qo'shish</p></a>
           <a href="three.html"
             ><p class="sidebar-item sidebar-item-bottom">Yordam</p></a
@@ -51,28 +51,22 @@
     </div>
     <div class="main-section">
       <div class="main-container">
-        <form action="" method="post">
+        <form action="../php/create_jobs.php" method="post" enctype="multipart/form-data">
           <p class="login-title">Ish qo'shish</p>
           <div class="inputs">
-            <h3>Ish Joyining rasimlarini joylang</h3>
-            <div class="file">
-              <input class="file-input" type="file" name="upload" id="upload" accept="jpg, jpeg, png, HEIC, AI, EPS">
-              <input class="file-input" type="file" name="upload" id="upload" accept="jpg, jpeg, png, HEIC, AI, EPS">
-              <input class="file-input" type="file" name="upload" id="upload" accept="jpg, jpeg, png, HEIC, AI, EPS">
-            </div>
-            <input type="text" placeholder="Ish beruvchi Ism Familyasi" />
-            <input type="email" placeholder="Ish Nomi" />
-              <select>
+            <input name="name" type="text" placeholder="Ish beruvchi Ism Familyasi" />
+            <input name="jobs_name" type="text" placeholder="Ish Nomi" />
+              <select name="jobs">
                   <optgroup label="Ish turi">
-                      <option value="hour">Soatlik</option>
-                      <option value="day">Kunlik</option>
-                      <option value="week">Haftalik</option>
-                      <option value="month">Oylik</option>
-                      <option value="year">Yillik</option>
+                      <option value="Soatlik">Soatlik</option>
+                      <option value="Kunlik">Kunlik</option>
+                      <option value="Haftalik">Haftalik</option>
+                      <option value="Oylik">Oylik</option>
+                      <option value="Yillik">Yillik</option>
                   </optgroup>
               </select>
-            <input type="email" placeholder="Ish Haqi" />
-            <input type="textarea" placeholder="Ish haqida qisqacha" />
+            <input name="money" type="text" placeholder="Ish Haqi" />
+            <input name="description" type="text" placeholder="Ish haqida qisqacha" />
           </div>
           <button class="submit-btn">Submit</button>
         </form>

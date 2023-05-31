@@ -52,14 +52,6 @@
   flex-direction: column;
 }
 
-.file{
-    display: flex;
-    flex-wrap: wrap;
-}
-.inputs h3{
-    text-align: center;
-    padding: 10px;
-}
 .inputs input {
   padding: 10px 10px;
   margin: 6px;
