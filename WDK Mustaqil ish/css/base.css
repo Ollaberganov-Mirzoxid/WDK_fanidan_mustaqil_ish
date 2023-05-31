@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --body-background-color: #777;
+  --navbar-background-color: #555;
+  --navbar-text-color: #fff;
+  --hover-text-color: #fc9c00;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--body-background-color);
+}
+
+/* ================ sidebar or navbar-left ================  */
+
+.navbar-left {
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  background: var(--navbar-background-color);
+  border: 1px solid var(--navbar-text-color);
+  z-index: 2;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--navbar-text-color);
+}
+
+.logo-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo-title {
+  padding-left: 10px;
+}
+
+.logo-title a {
+  text-decoration: none;
+}
+
+.logo-title p {
+  font-size: 32px;
+  color: var(--navbar-text-color);
+}
+
+.sidebar-menu a{
+    text-decoration: none;
+}
+
+.sidebar-item {
+  border-top: 1px solid var(--navbar-text-color);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sidebar-item-bottom {
+  border-bottom: 1px solid var(--navbar-text-color);
+}
+
+.sidebar-item:hover {
+  background: var(--body-background-color);
+}
+
+.sidebar-item:hover{
+  color: var(--hover-text-color);
+}
+
+.sidebar-item{
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--navbar-text-color);
+}
+
+/* ============== / sidebar or navbar-left =================== */
+
+/* ============= navbar-top =============== */
+
+.navbar-top {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  border: 1px solid var(--navbar-text-color);
+  background: var(--navbar-background-color);
+}
+
+.navbar-top {
+  padding-top: 10px;
+}
+
+.navbar-div-end {
+  padding-right: 15px;
+}
+
+.navbar-div-end a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+}
+
+.navbar-end-title {
+  padding-right: 10px;
+}
+
+.navbar-end-title-lastname {
+  font-size: 18px;
+  text-align: center;
+  color: var(--navbar-text-color);
+}
+
+.navbar-end-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* =========== /navbar-top ============= */
+
+.main-section{
+    padding-left: 20%;
+    padding-top: 72px;
+}
+
+.main-container{
+    padding: 20px;
+}

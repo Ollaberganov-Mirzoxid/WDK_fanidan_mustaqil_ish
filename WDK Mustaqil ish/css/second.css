@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+  --body-background-color: #777;
+  --navbar-background-color: #555;
+  --navbar-text-color: #fff;
+  --hover-text-color: #fc9c00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-top{
+    padding-bottom: 60px;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: var(--body-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  min-width: 25%;
+  background: var(--navbar-background-color);
+  min-height: 40vh;
+  border-radius: 10px;
+  border: 1px solid var(--navbar-text-color);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+
+.login-title {
+    background: var(--body-background-color);
+    border: 1px solid var(--navbar-text-color);
+    border-radius: 5px;
+    font-size: 28px;
+    color: var(--navbar-text-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.file{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputs h3{
+    text-align: center;
+    padding: 10px;
+}
+.inputs input {
+  padding: 10px 10px;
+  margin: 6px;
+  font-size: 18.6px;
+  background: var(--body-background-color);
+  border: 1px solid var(--navbar-text-color);
+  border-radius: 5px;
+  color: var(--navbar-text-color);
+}
+
+.inputs input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: var(--navbar-text-color);
+  opacity: 0.5;
+}
+select{
+    width: 10%;
+    padding: 10px 10px;
+    margin: 6px;
+    font-size: 18.6px;
+    background: var(--body-background-color);
+    border: 1px solid var(--navbar-text-color);
+    border-radius: 5px;
+    color: var(--navbar-text-color);
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.submit-btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--navbar-text-color);
+  background: var(--hover-text-color);
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--navbar-text-color);
+}
+
+.submit-btn:hover {
+  border: 2px solid var(--hover-text-color);
+  background: var(--navbar-text-color);
+  color: var(--hover-text-color);
+}
+
+.btn-bottom-title {
+  text-decoration: none;
+}
+
+.btn-bottom-title-p {
+    padding-top: 5px;
+    color: var(--navbar-text-color);
+  text-align: center;
+}
+
+.btn-bottom-title-p:hover{
+    color: var(--hover-text-color);
+}
