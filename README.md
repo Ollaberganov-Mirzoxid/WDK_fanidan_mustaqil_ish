@@ -4,7 +4,7 @@ Assalomu Alaykum Bu dasturni ishga tushirish uchun avvalo Kompyuteringizda "xamp
 
         https://sourceforge.net/projects/xampp/files/latest/download
 
-xampp dasturini yuklab olgandan so'ng uni kompyuteringizning 'Windows o'rnatilgan' joyi ko'p xollarda "C" diskka o'rnatishingizni tavsiya qilaman. O'rnatib bo'lgandan so'ng kompyuteringizda "XAMPP Control Panel" dasturi chiqadi chiqmasa "ПУСК" orqali kiring keyin 'Apache' va 'MySQL' ga "start" bering va sizning kompyuteringizda "XAMPP" ishga tushganini tekshirish uchun kompyuteringizdagi "chome" yoki shunga o'xshash dasturga kiring va shunday deb yozing.
+xampp dasturini yuklab olgandan so'ng uni kompyuteringizning 'Windows o'rnatilgan' joyi ko'p xollarda "C" disk bo'ladi o'sha yerga o'rnatishingizni tavsiya qilaman. O'rnatib bo'lgandan so'ng kompyuteringizda "XAMPP Control Panel" dasturi chiqadi chiqmasa "ПУСК" orqali kiring keyin 'Apache' va 'MySQL' ga "start" bering va sizning kompyuteringizda "XAMPP" ishga tushganini tekshirish uchun kompyuteringizdagi "chrome" yoki shunga o'xshash dasturga kiring va shunday deb yozing.
 
         http://localhost/phpmyadmin/
 
